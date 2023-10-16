@@ -1,0 +1,3 @@
+bash client_setup.sh "python exp_runner.py --mode train_RnB_relu                                 --conf ./confs/wmask_rnb_relu_graphosoma.conf                                 --case SIM_Light3-60-Ambiant/SIM_SDM"
+bash client_setup.sh "python exp_runner.py --mode train_RnB_wo_relu                                 --conf ./confs/wmask_rnb_norelu_graphosoma.conf                                 --case SIM_Light3-60-Ambiant/SIM_SDM"
+bash client_setup.sh "python exp_runner.py --mode train_RnB_relu                                 --conf ./confs/wmask_rnb_relu_graphosoma.conf                                 --case SIM_Light10-Ambiant/SIM_SDM"
